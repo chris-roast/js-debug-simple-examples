@@ -10,3 +10,10 @@ exports.aMysteryFunction = (array) => {
 
     console.log(`This array has a total value of ${count}\n`);
 }
+
+exports.anotherMysteryFunction = (array) => {
+    return array.reduce((previous, current) => {
+        if (current > previous) return current;
+        return previous;
+    });
+}
