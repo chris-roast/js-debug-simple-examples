@@ -4,6 +4,10 @@
  * @param {*} array of integers
  */
 exports.aMysteryFunction = (array) => {
+    if (!Array.isArray(array)){
+        console.log("UH OH, something's not right\n");
+        return;
+    }
     console.log(`This array has ${array.length} elements`);
 
     const count = array.reduce((a,b) => a+b);

@@ -1,7 +1,8 @@
 const  { aMysteryFunction, anotherMysteryFunction } = require('./mystery');
 
 const myNumbers = [3, 10, 15, 32, 22];
-aMysteryFunction(myNumbers);
+const myNumber = 6;
+aMysteryFunction(myNumber);
 
 const myStrings = ["Hello ", "There"];
 aMysteryFunction(myStrings);
