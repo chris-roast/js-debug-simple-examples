@@ -1,7 +1,7 @@
 /**
  * This function logs how many elements are in an array, and attempts to add all the elements together.
  * 
- * @param {*} array of integers
+ * @param {Array} array of integers
  */
 exports.aMysteryFunction = (array) => {
     if (!Array.isArray(array)){
