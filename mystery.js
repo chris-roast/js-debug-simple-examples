@@ -8,5 +8,5 @@ exports.aMysteryFunction = (array) => {
 
     const count = array.reduce((a,b) => a+b);
 
-    console.log(`This array has a total value of ${count}`);
+    console.log(`This array has a total value of ${count}\n`);
 }
